@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    text-align:center;
+}
+
+.mainContainer{
+    display: grid;
+    margin: auto;
+    width: 82%;
+    height: 350px;
+    align-content: center;
+}
+
+
+.mainContainer ul.assemblyContainer li.containerBoxes .box .purple{
+    background-color: #a2589b;
+}
+
+.mainContainer ul.assemblyContainer li.containerBoxes .box .turquoise{
+    background-color: #5ec791;
+}
+
+
+.mainContainer ul.assemblyContainer {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    box-align: center;
+    align-items: center;
+    -ms-flex-align: center;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.mainContainer ul.assemblyContainer li.containerBoxes{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: #dad4d4 0 4px 8px 2px;
+    align-items: center;
+    box-align: center;
+    width: 265px;
+    height: 80px;
+}
+
+.mainContainer ul.assemblyContainer li.containerBoxes .box{
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    -ms-flex-item-align: center;
+    border: none;
+    width: 80px;
+    height: auto;
+}
+
+.mainContainer ul.assemblyContainer li.containerBoxes .box img{
+    border-radius: 50%;
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: auto;
+    transform: scale(.99);
+}
+
